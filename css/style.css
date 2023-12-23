@@ -1,0 +1,30 @@
+.imgThree {
+    background-image: url(../img/komfortroom.jpg);
+    width: 800px;
+    height: 223px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+button {
+    background-image: url(../img/play.png);
+    background-size: 80px;
+    background-position: left 50% top 50%;
+    background-color: rgba(2, 6, 8, 0);
+    height: 62px;
+    width: 62px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.semilayer2 {
+    background: rgba(21, 34, 66, 0.5);
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+}
